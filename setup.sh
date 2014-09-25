@@ -1,4 +1,4 @@
 #!/bin/sh
 
-conky -c /.conky/conkyrc
+conky -q -c .conky/conkyrc
 

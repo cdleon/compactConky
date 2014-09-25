@@ -3,6 +3,7 @@
 --
 --  Date    : 05/02/2012
 --  Author  : SeaJey
+--  Mods by : Cdleon
 --  Version : v0.1
 --  License : Distributed under the terms of GNU GPL version 2 or later
 --
