@@ -1,4 +1,3 @@
 #!/bin/sh
 
-conky -q -c .conky/conkyrc
-
+chmod 755 compact_conky.sh

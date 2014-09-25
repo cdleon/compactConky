@@ -24,7 +24,7 @@ no_buffers yes
 text_buffer_size 2048
 
 gap_x 30
-gap_y 70
+gap_y 45
 minimum_size 300 900
 maximum_width 350
 own_window yes
@@ -73,9 +73,10 @@ ${font Ubuntu:size=10,weight:bold}${color4}SYSTEM ${hr 2}
 ${offset 15}${font Ubuntu:size=10,weight:normal}${color1}$sysname $kernel
 ${offset 15}${font Ubuntu:size=10,weight:normal}${color1}$nodename
 ${offset 15}${font Ubuntu:size=10,weight:normal}${color1}Uptime: $uptime
+${offset 15}${font Ubuntu:size=10,weight:normal}${color1}IP(wlan): ${addrs wlan0}
 
 # Showing CPU Graph
-${voffset -33}
+${voffset -45}
 ${offset 120}${cpugraph 40,183 F9FB24 F9FB24}${voffset -25}
 ${offset 90}${font Ubuntu:size=10,weight:bold}${color5}CPU
 # Showing TOP 5 CPU-consumers
