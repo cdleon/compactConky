@@ -104,11 +104,11 @@ ${offset 135}${font Ubuntu:size=9,weight:bold}${color1}Media: ${font Ubuntu:size
 
 # Network data (my desktop have only LAN). ETHERNET ring is mostly useless but looks pretty, main info is in the graphs
 ${voffset 0}
-${offset 90}${font Ubuntu:size=10,weight:bold}${color5}ETHERNET
+${offset 90}${font Ubuntu:size=10,weight:bold}${color5}WIRELESS
 ${voffset 0}             
-${offset 15}${color1}${font Ubuntu:size=9,weight:bold}Up: ${alignr}${font Ubuntu:size=9,weight:normal}$color2${upspeed eth0} / ${totalup}
+${offset 15}${color1}${font Ubuntu:size=9,weight:bold}Up: ${alignr}${font Ubuntu:size=9,weight:normal}$color2${upspeed wlan0} / ${totalup}
 ${offset 15}${upspeedgraph wlan0 40,285 4B1B0C FF5C2B 100 -l}
-${offset 15}${color1}${font Ubuntu:size=9,weight:bold}Down: ${alignr}${font Ubuntu:size=9,weight:normal}$color2${downspeed eth0} / ${totaldown}
+${offset 15}${color1}${font Ubuntu:size=9,weight:bold}Down: ${alignr}${font Ubuntu:size=9,weight:normal}$color2${downspeed wlan0} / ${totaldown}
 ${offset 15}${downspeedgraph wlan0 40,285 324D23 77B753 100 -l}
 ${voffset -15}
 #${color4}${hr 2}
